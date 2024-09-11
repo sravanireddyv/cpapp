@@ -1,0 +1,1240 @@
+#2.0#2024 09 11 10:46:34.312#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:45:04.114065] Added process: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.312#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:45:04.120895] Created app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.312#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:45:04.216955] Updating process: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:45:04.280202] Scaling process: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:16.193592] Uploading app package for app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:16.358738] Updated app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:24.378742] Creating build for app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:24.721408] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:24.755006] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:24.755057] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 creating container for instance 8cc2780d-fe6c-4d52-9746-4cdb274dcd63 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:25.087176] Security group rules were updated (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:25.150481] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully created container for instance 8cc2780d-fe6c-4d52-9746-4cdb274dcd63 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.086904] Downloading app package... (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.465165] Downloaded app package (4.2M) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.518459] -----> Nodejs Buildpack version 1.8.27 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.656210] -----> Bootstrapping python (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.656240] -----> Installing python 3.11.9 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:26.656251] Copy [/tmp/buildpacks/2a30e1b8700f34f7/dependencies/21946bb90387e2dbfa40b0d6ca474060/python_3.11.9_linux_x64_cflinuxfs4_dea1f79d.tgz] (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:30.146877] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:30.146985] engines.node (package.json): 20.15.1 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:30.146995] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:30.147033] -----> Installing node 20.15.1 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:30.147120] Copy [/tmp/buildpacks/2a30e1b8700f34f7/dependencies/8379718ff30f90cc5706f1c664ad469e/node_20.15.1_linux_x64_cflinuxfs4_0cc99557.tgz] (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:31.971315] Using default npm version: 10.7.0 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:31.971332] -----> Installing yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:31.971444] Copy [/tmp/buildpacks/2a30e1b8700f34f7/dependencies/0f06052381cbcef1593bd279ca3d9458/yarn_1.22.19_linux_noarch_any-stack_32d0e82e.tgz] (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.275474] Installed yarn 1.22.19 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.275494] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276810] NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276820] NODE_HOME=/tmp/contents2233668920/deps/0/node (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276822] NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276827] NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276830] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276832] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276839] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276841] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.276858] Rebuilding any native modules (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.797643] rebuilt dependencies successfully (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.799295] npm notice (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.799305] npm notice New minor version of npm available! 10.7.0 -> 10.8.3 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.799311] npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.799315] npm notice To update run: npm install -g npm@10.8.3 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.799317] npm notice (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:32.806448] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:33.448772] up to date in 573ms (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.313#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:33.448963] 10 packages are looking for funding (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:34.314#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-519###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:33.448973] run `npm fund` for details (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:34.105684] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:42.570016] Exit status 0 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:42.570064] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:42.570113] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:42.570114] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:42.595662] Uploaded build artifacts cache (216B) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:44.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-458###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:43.454881] Creating droplet for app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:46:54.417#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-463###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:45.617769] Uploaded droplet (50.2M) (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:54.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-463###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:45.625749] Uploading complete (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:54.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-463###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:45.893987] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance 8cc2780d-fe6c-4d52-9746-4cdb274dcd63 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:54.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-463###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:45.894015] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance 8cc2780d-fe6c-4d52-9746-4cdb274dcd63 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:46:54.418#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.stageAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-463###
+[PollStageAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:48.023817] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance 8cc2780d-fe6c-4d52-9746-4cdb274dcd63 (STDOUT, STG)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:54.508718] Updated app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 ({:droplet_guid=>"50cd7150-2951-4536-a108-dc8472234aeb"}) (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:54.802901] Creating revision for app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:54.847577] Starting app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:55.020050] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 6b6b8fb5-322e-4125-5e7a-2762 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:55.379195] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:55.427654] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 6b6b8fb5-322e-4125-5e7a-2762 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:55.743502] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.237343] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.237462] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.295573] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.502518] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.811861] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.811878] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.815978] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:04.715#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-471###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:46:58.832708] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.628#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.691038] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 6b6b8fb5-322e-4125-5e7a-2762 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.691071] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 6b6b8fb5-322e-4125-5e7a-2762 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.706128] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.734346] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"6b6b8fb5-322e-4125-5e7a-2762", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1726051624681533747, "version"=>"a4a34ae3-57fd-4542-892d-5d3ad91555e6"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.752730] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 creating container for instance 3f5d69fb-3aef-4483-6632-e44b (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:04.784111] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:05.070646] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:05.134752] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully created container for instance 3f5d69fb-3aef-4483-6632-e44b (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:05.709457] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:07.189135] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 6b6b8fb5-322e-4125-5e7a-2762 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.196210] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.196295] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.251797] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.457535] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.762852] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.762871] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.766844] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:14.629#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-528###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:08.781605] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.891340] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 stopping instance 3f5d69fb-3aef-4483-6632-e44b (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.891378] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 destroying container for instance 3f5d69fb-3aef-4483-6632-e44b (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.907301] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.926296] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"3f5d69fb-3aef-4483-6632-e44b", "index"=>0, "cell_id"=>"66bf8157-2666-4d64-b2ba-4e673aee0466", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1726051634879620492, "version"=>"a4a34ae3-57fd-4542-892d-5d3ad91555e6"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.955472] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:14.994908] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:15.322781] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:15.370666] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:15.696327] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:16.187193] Cell 66bf8157-2666-4d64-b2ba-4e673aee0466 successfully destroyed container for instance 3f5d69fb-3aef-4483-6632-e44b (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.277179] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.277271] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.342131] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.545259] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.845142] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.845160] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.849401] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:24.647#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-472###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:18.866522] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.775008] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.775038] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.799533] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.831447] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"f49ed7c1-5f28-4e9a-7976-3d81", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051644772346843, "version"=>"a4a34ae3-57fd-4542-892d-5d3ad91555e6"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:25.386912] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:47:34.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-491###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:26.621523] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.775008] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.775038] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.799533] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:24.831447] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"f49ed7c1-5f28-4e9a-7976-3d81", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051644772346843, "version"=>"a4a34ae3-57fd-4542-892d-5d3ad91555e6"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:25.386912] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:26.621523] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance f49ed7c1-5f28-4e9a-7976-3d81 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:37.297094] Stopping app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:37.470373] Starting app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:37.626028] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 1f361a82-7454-48ea-66bf-2fc7 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:37.979112] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:38.035661] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 1f361a82-7454-48ea-66bf-2fc7 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:38.388738] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:40.857210] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:40.857295] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:40.913468] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:41.118930] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:41.424433] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:41.424449] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:41.428371] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:44.905#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-541###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:41.442813] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.045#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.415175] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 1f361a82-7454-48ea-66bf-2fc7 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.415205] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 1f361a82-7454-48ea-66bf-2fc7 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.421496] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.434136] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"1f361a82-7454-48ea-66bf-2fc7", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1726051667404890859, "version"=>"892c18c3-6970-46d6-b338-19e80fe36658"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.483655] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 creating container for instance b4c6b730-95f6-4b30-5084-3c15 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.522557] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.805711] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:47.861712] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 successfully created container for instance b4c6b730-95f6-4b30-5084-3c15 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:48.203894] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:48.732865] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 1f361a82-7454-48ea-66bf-2fc7 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:50.700632] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:50.700721] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:50.757333] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:50.958465] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:51.260921] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:51.260933] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:51.265166] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:47:55.046#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-545###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:51.281889] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.376325] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 stopping instance b4c6b730-95f6-4b30-5084-3c15 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.376370] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 destroying container for instance b4c6b730-95f6-4b30-5084-3c15 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.382746] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.392269] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"b4c6b730-95f6-4b30-5084-3c15", "index"=>0, "cell_id"=>"0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1726051677366959913, "version"=>"892c18c3-6970-46d6-b338-19e80fe36658"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.436343] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b creating container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.486901] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.765343] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:57.826069] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully created container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:58.164530] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:47:58.697149] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 successfully destroyed container for instance b4c6b730-95f6-4b30-5084-3c15 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:00.685089] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:00.685173] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:00.748350] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:00.944462] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:01.249908] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:01.249924] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:01.254110] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:05.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-495###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:01.271138] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.114324] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.114361] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.127271] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.137169] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"7da7be07-e2c0-431a-712c-7c27", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051687111836763, "version"=>"892c18c3-6970-46d6-b338-19e80fe36658"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.217212] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:15.486#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-508###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:08.321038] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.114324] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b stopping instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.114361] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b destroying container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.127271] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.137169] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"7da7be07-e2c0-431a-712c-7c27", "index"=>0, "cell_id"=>"40a73ee2-c30d-4beb-931c-937f2cbb923b", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051687111836763, "version"=>"892c18c3-6970-46d6-b338-19e80fe36658"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:07.217212] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:08.321038] Cell 40a73ee2-c30d-4beb-931c-937f2cbb923b successfully destroyed container for instance 7da7be07-e2c0-431a-712c-7c27 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:17.411578] Stopping app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:17.944128] Starting app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:18.227040] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance a78ce658-f9d0-43ad-6d18-e9d8 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:18.579263] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:18.635476] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance a78ce658-f9d0-43ad-6d18-e9d8 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:19.131335] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:21.679575] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:21.679673] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:21.741772] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:21.929752] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:22.230041] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:22.230054] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:22.234209] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:25.609#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-515###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:22.251380] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.255506] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance a78ce658-f9d0-43ad-6d18-e9d8 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.255534] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance a78ce658-f9d0-43ad-6d18-e9d8 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.262183] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.278623] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"a78ce658-f9d0-43ad-6d18-e9d8", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1726051708246413229, "version"=>"210df251-0551-489a-8035-80edef875a3f"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.317461] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 creating container for instance d4da8007-9d8a-4b4c-5af2-da2d (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.359962] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.657708] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.721361] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 successfully created container for instance d4da8007-9d8a-4b4c-5af2-da2d (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:28.977819] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:29.655076] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance a78ce658-f9d0-43ad-6d18-e9d8 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:31.538976] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:31.539097] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:31.598902] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:31.790924] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:32.092217] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:32.092233] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:32.096556] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:35.548#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-568###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:32.115037] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:45.652#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:39.311988] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 stopping instance d4da8007-9d8a-4b4c-5af2-da2d (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:39.312034] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 destroying container for instance d4da8007-9d8a-4b4c-5af2-da2d (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:39.318780] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:39.330627] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"d4da8007-9d8a-4b4c-5af2-da2d", "index"=>0, "cell_id"=>"0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1726051719302649190, "version"=>"210df251-0551-489a-8035-80edef875a3f"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:39.421942] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:41.210345] Cell 0e9d359d-cbb1-42e2-ae1d-5cfbdc4910b6 successfully destroyed container for instance d4da8007-9d8a-4b4c-5af2-da2d (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:44.334443] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:44.716124] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:45.653#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-529###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:44.844315] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:45.456212] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.145255] Downloaded droplet (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.145331] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.201360] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.397855] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706152] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706178] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706187] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.718819] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.451959] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.451997] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.469631] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.483781] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"4f8caf16-15f9-4622-42b4-5f4a", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051732449490265, "version"=>"210df251-0551-489a-8035-80edef875a3f"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.564032] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:48:55.822#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-530###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:54.179848] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:45.456212] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.145255] Downloaded droplet (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.145331] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.201360] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.397855] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706152] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706178] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.706187] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:46.718819] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.451959] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.451997] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.469631] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.483781] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"4f8caf16-15f9-4622-42b4-5f4a", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051732449490265, "version"=>"210df251-0551-489a-8035-80edef875a3f"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:52.564032] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:54.179848] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 4f8caf16-15f9-4622-42b4-5f4a (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:56.646948] Stopping app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:56.841553] Starting app with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:57.022675] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance f3ab3476-4c98-4f20-4df5-9dea (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:57.371355] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:57.439875] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance f3ab3476-4c98-4f20-4df5-9dea (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:48:57.682650] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.140904] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.141016] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.198639] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.395077] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.698097] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.698113] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.702627] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:06.229#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-534###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:00.719316] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.412072] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance f3ab3476-4c98-4f20-4df5-9dea (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.412101] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance f3ab3476-4c98-4f20-4df5-9dea (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.420967] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.435045] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"f3ab3476-4c98-4f20-4df5-9dea", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1726051747402492222, "version"=>"6601615e-0e33-4452-86b2-e0b9b7aa71b7"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.472826] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 74bf632e-caa5-475b-7b83-a67e (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.729490] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.799071] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:07.871166] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 74bf632e-caa5-475b-7b83-a67e (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:08.215221] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:08.678913] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance f3ab3476-4c98-4f20-4df5-9dea (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:10.774138] Downloaded droplet (50.2M) (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:10.774218] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:10.839721] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:11.038396] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:11.348203] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:11.348225] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:11.352170] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:16.107#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-543###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:11.367231] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:16.925706] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 74bf632e-caa5-475b-7b83-a67e (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:16.925750] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 74bf632e-caa5-475b-7b83-a67e (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:16.932871] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:16.946710] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"74bf632e-caa5-475b-7b83-a67e", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1726051756916997658, "version"=>"6601615e-0e33-4452-86b2-e0b9b7aa71b7"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:16.996559] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance c0e2b2dd-e583-43c9-4c55-2310 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:17.034145] Exit status 137 (STDOUT, PROXY)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:17.343013] Security group rules were updated (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:17.417016] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance c0e2b2dd-e583-43c9-4c55-2310 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:17.682817] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.216025] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 74bf632e-caa5-475b-7b83-a67e (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.332741] Downloaded droplet (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.332830] Starting health monitoring of container (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.395299] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.595655] Invoking start command. (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.897730] > cpapp@1.0.0 start (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.897748] > cds run (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.901780] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:18.915625] Exit status 127 (STDOUT, APP/PROC/WEB)#
+
+#2.0#2024 09 11 10:49:26.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:24.891948] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance c0e2b2dd-e583-43c9-4c55-2310 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:24.891976] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance c0e2b2dd-e583-43c9-4c55-2310 (STDOUT, CELL)#
+
+#2.0#2024 09 11 10:49:26.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:24.907075] Process has crashed with type: "web" (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:26.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:24.919026] App instance exited with guid 865b4a9a-a737-4640-bb88-f886ae94dc86 payload: {"instance"=>"c0e2b2dd-e583-43c9-4c55-2310", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1726051764889797707, "version"=>"6601615e-0e33-4452-86b2-e0b9b7aa71b7"} (STDOUT, API)#
+
+#2.0#2024 09 11 10:49:26.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.bc6f4218-702a-11ef-815e-eeee0a9da3f2.cpapp-srv.startAppTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-552###
+[PollStartAppStatusExecution] [cpapp-srv] 865b4a9a-a737-4640-bb88-f886ae94dc86 [2024-09-11T10:49:25.068790] Exit status 137 (STDOUT, PROXY)#
+
